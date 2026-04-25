@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# Data, logs, reports (runtime artifacts)
+/data/*
+!/data/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/reports/*
+!/reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# uv
+.uv/
