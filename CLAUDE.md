@@ -119,6 +119,7 @@ black_mamba/
 │   │
 │   ├── data/
 │   │   ├── __init__.py
+│   │   ├── cities.py                  # Day-one trading universe (LAX/SFO/PHX): station, tz, source priority
 │   │   ├── nws_api.py                 # api.weather.gov client
 │   │   ├── metar_direct.py            # tgftp.nws.noaa.gov direct METAR fetch
 │   │   ├── synoptic.py                # Synoptic Data PBC fallback (MesoWest)
